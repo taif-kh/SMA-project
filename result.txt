@@ -1,0 +1,20 @@
+=== Simulation Results ===
+Company 0 price history: [60, 57.07, 54.95, 53.96, 55.15, 58.81, 59.7, 58.98, 57.22, 54.64, 52.5]
+Company 1 price history: [57, 54.84, 55.27, 59.54, 63.31, 66.92, 66.27, 65.3, 60.55, 58.21, 55.11]
+
+Investor portfolios:
+Investor 0 (strategy: trend):
+  Cash: $1002.47
+  Shares: {1: 0, 0: 0}
+Investor 1 (strategy: contrarian):
+  Cash: $485.83
+  Shares: {0: 4, 1: 5}
+Investor 2 (strategy: trend):
+  Cash: $1000.56
+  Shares: {1: 0, 0: 0}
+Investor 3 (strategy: trend):
+  Cash: $992.14
+  Shares: {1: 0, 0: 0}
+Investor 4 (strategy: trend):
+  Cash: $983.71
+  Shares: {1: 0, 0: 0}

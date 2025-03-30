@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Market Simulation</title>
+  </head>
+  <body>
+    <h1>Stock Market Simulation</h1>
+
+    <h2>Stock Prices Over Time</h2>
+    <img src="{{ url_for('plot_stock_prices') }}" alt="Stock Prices" />
+
+    <h2>Investor Cash Holdings</h2>
+    <img
+      src="{{ url_for('plot_investor_cash') }}"
+      alt="Investor Cash Holdings"
+    />
+
+    <h2>Investor Share Holdings</h2>
+    <img
+      src="{{ url_for('plot_investor_shares') }}"
+      alt="Investor Share Holdings"
+    />
+  </body>
+</html>
